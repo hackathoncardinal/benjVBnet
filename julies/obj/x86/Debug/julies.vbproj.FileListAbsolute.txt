@@ -1,0 +1,266 @@
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\bin\Debug\julies.exe.config
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\bin\Debug\julies.exe
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\bin\Debug\julies.pdb
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\bin\Debug\julies.xml
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\Benj\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\Benj\Downloads\Compressed\julies\julies\bin\Debug\julies.exe.config
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\Benj\Downloads\Compressed\julies\julies\bin\Debug\julies.exe
+C:\Users\Benj\Downloads\Compressed\julies\julies\bin\Debug\julies.pdb
+C:\Users\Benj\Downloads\Compressed\julies\julies\bin\Debug\julies.xml
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Benj\Downloads\Compressed\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\benj\Videos\julies\julies\bin\Debug\julies.exe.config
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\benj\Videos\julies\julies\bin\Debug\julies.exe
+C:\Users\benj\Videos\julies\julies\bin\Debug\julies.pdb
+C:\Users\benj\Videos\julies\julies\bin\Debug\julies.xml
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\benj\Videos\julies\julies\obj\x86\Debug\julies.vbproj.GenerateResource.Cache
+F:\benj\Videos1\julies\julies\bin\Debug\julies.exe.config
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.exe
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.xml
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.pdb
+F:\benj\Videos1\julies\julies\bin\Debug\julies.exe
+F:\benj\Videos1\julies\julies\bin\Debug\julies.pdb
+F:\benj\Videos1\julies\julies\bin\Debug\julies.xml
+F:\benj\Videos1\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.Client_form.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.MainForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.Resources.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.Sales.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.Stock.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+F:\benj\Videos1\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\benj\Videos1\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\art\Documents\BenjSystem\julies\julies\bin\Debug\julies.exe.config
+C:\Users\art\Documents\BenjSystem\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\art\Documents\BenjSystem\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\art\Documents\BenjSystem\julies\julies\obj\x86\Debug\julies.pdb
+F:\1Seagate Backup Plus Drive\Benj Files\0FFICE FILES\alu pc\alu-pc noc112017\Documents\Visual Studio 2010\Projects\julies\julies\bin\Debug\julies.exe.config
+F:\1Seagate Backup Plus Drive\Benj Files\0FFICE FILES\alu pc\alu-pc noc112017\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.exe
+F:\1Seagate Backup Plus Drive\Benj Files\0FFICE FILES\alu pc\alu-pc noc112017\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.xml
+F:\1Seagate Backup Plus Drive\Benj Files\0FFICE FILES\alu pc\alu-pc noc112017\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.pdb
+C:\jdb\julies.exe.config
+C:\jdb\julies.exe
+C:\jdb\julies.pdb
+C:\jdb\julies.xml
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\julies.exe.config
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\julies.exe
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\julies.pdb
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\julies.xml
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\jdb\julies.exe.config
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\jdb\julies.exe
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\jdb\julies.pdb
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\bin\debug\jdb\julies.xml
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.vbproj.GenerateResource.Cache
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\alu\Documents\Visual Studio 2010\Projects\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\alu\Videos\julies\julies\julies.exe.config
+C:\Users\alu\Videos\julies\julies\julies.exe
+C:\Users\alu\Videos\julies\julies\julies.pdb
+C:\Users\alu\Videos\julies\julies\julies.xml
+C:\database1\julies.exe.config
+C:\database1\julies.exe
+C:\database1\julies.pdb
+C:\database1\julies.xml
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.vbproj.GenerateResource.Cache
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.pdb
+C:\database1\julies.exe.manifest
+C:\database1\julies.application
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.exe.manifest
+C:\Users\alu\Videos\julies\julies\obj\x86\Debug\julies.application
+C:\Users\alu\Videos\julies\julies\julies.exe.manifest
+C:\Users\alu\Videos\julies\julies\julies.application
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.exe.config
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.exe.manifest
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.application
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.exe
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.pdb
+C:\Users\benjo\Desktop\julies\julies\Bin\Debug\julies.xml
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.exe.manifest
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.application
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\benjo\Desktop\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.exe.config
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.exe
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.xml
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.pdb
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.exe.manifest
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.application
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.exe
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.pdb
+C:\Users\Benj\Desktop\julies -1\julies\julies\Bin\Debug\julies.xml
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.Client_form.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.MainForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.Resources.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.Sales.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.Stock.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.exe.manifest
+C:\Users\Benj\Desktop\julies -1\julies\julies\obj\x86\Debug\julies.application
+E:\julies -1\julies\julies\Bin\Debug\julies.exe.config
+E:\julies -1\julies\julies\obj\x86\Debug\julies.exe
+E:\julies -1\julies\julies\obj\x86\Debug\julies.xml
+E:\julies -1\julies\julies\obj\x86\Debug\julies.pdb
+E:\julies -1\julies\julies\Bin\Debug\julies.exe.manifest
+E:\julies -1\julies\julies\Bin\Debug\julies.application
+E:\julies -1\julies\julies\Bin\Debug\julies.exe
+E:\julies -1\julies\julies\Bin\Debug\julies.pdb
+E:\julies -1\julies\julies\Bin\Debug\julies.xml
+E:\julies -1\julies\julies\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\julies -1\julies\julies\obj\x86\Debug\julies.AboutForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.DeliveryForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.DeliverySubForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.Client_form.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.DeliverySubFormItem.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.jjjjj.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.LoginForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.MainForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.Resources.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.RegistrationForm.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.Sales.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.Stock.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.StockSubDelete.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.StockSubUpdate.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.Unpaid.resources
+E:\julies -1\julies\julies\obj\x86\Debug\julies.UnpaidSub.resources
+E:\julies -1\julies\julies\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\julies -1\julies\julies\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\julies -1\julies\julies\obj\x86\Debug\julies.exe.manifest
+E:\julies -1\julies\julies\obj\x86\Debug\julies.application

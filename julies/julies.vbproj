@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C5C813F-3597-4C73-994F-42B592B9147E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>julies.My.MyApplication</StartupObject>
+    <RootNamespace>julies</RootNamespace>
+    <AssemblyName>julies</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>Bin\Debug\</OutputPath>
+    <DocumentationFile>julies.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>julies.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Ebiene-E-Commerce-Shopping-bags.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DD9B2EFFFC4EB7B97C6A51AB47E1F70545FEB385</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>julies_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryForm.Designer.vb">
+      <DependentUpon>DeliveryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliverySubForm.Designer.vb">
+      <DependentUpon>DeliverySubForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeliverySubForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.vb">
+      <DependentUpon>ClientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliverySubFormItem.Designer.vb">
+      <DependentUpon>DeliverySubFormItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeliverySubFormItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jdb1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdb1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdb1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdb1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jdbDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jdbDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jjjjj.Designer.vb">
+      <DependentUpon>jjjjj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jjjjj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.vb">
+      <DependentUpon>RegistrationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.vb">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.vb">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockSubDelete.Designer.vb">
+      <DependentUpon>StockSubDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockSubDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockSubUpdate.Designer.vb">
+      <DependentUpon>StockSubUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockSubUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unpaid.Designer.vb">
+      <DependentUpon>Unpaid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unpaid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnpaidSub.Designer.vb">
+      <DependentUpon>UnpaidSub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnpaidSub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryForm.resx">
+      <DependentUpon>DeliveryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliverySubForm.resx">
+      <DependentUpon>DeliverySubForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliverySubFormItem.resx">
+      <DependentUpon>DeliverySubFormItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jjjjj.resx">
+      <DependentUpon>jjjjj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockSubDelete.resx">
+      <DependentUpon>StockSubDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockSubUpdate.resx">
+      <DependentUpon>StockSubUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unpaid.resx">
+      <DependentUpon>Unpaid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnpaidSub.resx">
+      <DependentUpon>UnpaidSub.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="jdb1DataSet.xsc">
+      <DependentUpon>jdb1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jdb1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdb1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdb1DataSet.xss">
+      <DependentUpon>jdb1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jdb1DataSet1.xsc">
+      <DependentUpon>jdb1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="jdb1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdb1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdb1DataSet1.xss">
+      <DependentUpon>jdb1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet.xsc">
+      <DependentUpon>jdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet.xss">
+      <DependentUpon>jdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet1.xsc">
+      <DependentUpon>jdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet1.xss">
+      <DependentUpon>jdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet2.xsc">
+      <DependentUpon>jdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet2.xss">
+      <DependentUpon>jdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet3.xsc">
+      <DependentUpon>jdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet3.xss">
+      <DependentUpon>jdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet4.xsc">
+      <DependentUpon>jdbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet4.xss">
+      <DependentUpon>jdbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet5.xsc">
+      <DependentUpon>jdbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet5.xss">
+      <DependentUpon>jdbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet6.xsc">
+      <DependentUpon>jdbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="jdbDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jdbDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jdbDataSet6.xss">
+      <DependentUpon>jdbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="julies_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\julies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\721-icon-home-button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27101950596.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register_button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ebiene-E-Commerce-Shopping-bags.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

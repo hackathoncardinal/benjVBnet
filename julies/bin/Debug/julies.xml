@@ -1,0 +1,952 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+julies
+</name>
+</assembly>
+<members>
+<member name="T:julies.jdbDataSet.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSetTableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSetTableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet2.ClientFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet2.ClientFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet2.ClientFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet2TableAdapters.ClientFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet2TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet5.ClientFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.DeliveryControlNoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumber1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegAdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegGuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.Sales_SummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.UnpaidDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.ClientFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.DeliveryControlNoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumber1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegAdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegGuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.Sales_SummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.UnpaidRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet5.ClientFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.DeliveryControlNoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.OrderNumber1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegAdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegGuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.Sales_SummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5.UnpaidRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.ClientFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.DeliveryControlNoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.OrderNumberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.OrderNumber1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.RegAdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.RegGuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.Sales_SummaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.UnpaidTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet5TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdb1DataSet.ClientFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.DeliveryControlNoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumber1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegAdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegGuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.Sales_SummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.UnpaidDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.ClientFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.DeliveryControlNoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumber1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegAdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegGuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.Sales_SummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.UnpaidRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet.ClientFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.DeliveryControlNoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.OrderNumber1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegAdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegGuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.Sales_SummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet.UnpaidRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.ClientFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.DeliveryControlNoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.OrderNumberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.OrderNumber1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.RegAdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.RegGuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.Sales_SummaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.UnpaidTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdb1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdb1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdb1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdb1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdb1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdb1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdb1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdb1DataSetTableAdapters.TableAdapterManager.UpdateAll(julies.jdb1DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdb1DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdb1DataSet1.ClientFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.DeliveryControlNoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumber1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegAdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegGuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.Sales_SummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.UnpaidDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.ClientFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.DeliveryControlNoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumber1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegAdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegGuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.Sales_SummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.UnpaidRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdb1DataSet1.ClientFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.DeliveryControlNoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.OrderNumber1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegAdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegGuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.Sales_SummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1.UnpaidRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdb1DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.ClientFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.DeliveryControlNoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.OrderNumberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.OrderNumber1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.RegAdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.RegGuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.Sales_SummaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.UnpaidTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdb1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdb1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdb1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdb1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdb1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdb1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdb1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdb1DataSet1TableAdapters.TableAdapterManager.UpdateAll(julies.jdb1DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdb1DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet1.ClientFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet1.ClientFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet1.ClientFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet1TableAdapters.ClientFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet1TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet4.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet4.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet4.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet4TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet4TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet3.OrderNumber1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet3.OrderNumber1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet3.OrderNumber1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet3TableAdapters.OrderNumber1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet3TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:julies.jdbDataSet6.OrderNumber1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:julies.jdbDataSet6.OrderNumber1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:julies.jdbDataSet6.OrderNumber1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:julies.jdbDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:julies.jdbDataSet6TableAdapters.OrderNumber1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:julies.jdbDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(julies.jdbDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(julies.jdbDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:julies.jdbDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(julies.jdbDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:julies.jdbDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:julies.jdbDataSet6TableAdapters.TableAdapterManager.UpdateAll(julies.jdbDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:julies.jdbDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:julies.jdbDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:julies.jdbDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:julies.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:julies.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:julies.My.Resources.Resources._27101950596">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:julies.My.Resources.Resources._721_icon_home_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:julies.My.Resources.Resources._88_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:julies.My.Resources.Resources.Ebiene_E_Commerce_Shopping_bags">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:julies.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:julies.My.Resources.Resources.julies">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:julies.My.Resources.Resources.register_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:julies.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
